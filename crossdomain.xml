@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<cross-domain-policy>
+  <!--本站点域名-->
+  <mchina>http://phone.phone.com</mchina>
+  <!--图片静态文件头部-->
+  <mdn_img>http://phone.phone.com</mdn_img>
+  <!--静态文件头部-->
+  <mdn_china>http://phone.phone.com</mdn_china>
+    <!--静态文件头部-->
+  <cdn_tc_public>http://phone.phone.com</cdn_tc_public>
+  <!--虎易域名(cn站点)-->
+  <china_url>http://cn.coovee1.com</china_url>
+  <!--用户中心域名(user站点)-->
+  <china_user_url>http://{0}.m.coovee1.com</china_user_url>
+  <!--百度地图APIkey-->
+  <mapsrc>http://api.map.baidu.com/api?v=2.0&amp;ak=v8zmEPzS5wbHKGLK5AFMyGf9M8yOkqLd</mapsrc>
+  <!--关键字长度设置(用于判断页面样式)-->
+  <word_len>7</word_len>
+  <!--Ip记录开关(1表示开，0表示关)-->
+  <OfIp>0</OfIp>
+  <!--IpApiUrl-->
+  <IpApiUrl>http://192.168.1.177</IpApiUrl>
+  <!--m站-供应列表id-->
+  <wapGyListId>51</wapGyListId>
+  <!--m站-供应终端id-->
+  <wapGyDetailId>52</wapGyDetailId>
+  <!--m站-企业列表id-->
+  <wapGsListId>53</wapGsListId>
+  <!--m站-企业档案id-->
+  <wapGongsiId>54</wapGongsiId>
+  <!--m站-企业供应列表id-->
+  <wapGsGyListId>55</wapGsGyListId>
+  <!--m站-图片列表id-->
+  <wapSpListId>56</wapSpListId>
+  <!--m站-图片终端id-->
+  <wapSpDetailId>57</wapSpDetailId>
+  <!--user其它页面-->
+  <userOther>0</userOther>
+  <!--服务器统计开关（1表开，0表示关闭）-->
+  <OfServerCount>1</OfServerCount>
+  <!--响应时间阀值设定(毫秒)-->
+  <TimeForMs>500</TimeForMs>
+<!--淘宝读取数据接口地址-->
+<TaobaoApiUrl>http://192.168.1.7</TaobaoApiUrl>
+  
+
+  <allow-access-from domain="*" />
+</cross-domain-policy>

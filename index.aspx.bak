@@ -1,0 +1,220 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WapCoovee.index" Async="true" %>
+<%@ Import Namespace="Coovee.UrlRewriter" %>
+<%@ Import Namespace="WapCoovee.Common" %>
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/css/china-base-css.css">
+    <link rel="stylesheet" href="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/css/home_page.css">
+    <title>虎易网-国内领先的B2B网站，导购网站，购物分享平台！</title>
+    <meta name="keywords" content="虎易网,B2B网站,导购网站" />
+    <meta name="description" content="虎易网，国内领先的B2B网站，导购网站，购物分享平台。严谨信息审核机制，严尽全力为用户提供诚信可靠产品供应商，分享有参考价值的购物信息。让网找供应商，网上购物变得更简单。" />
+    <link rel="canonical" href="www.coovee.com" >
+    <link rel="icon" href="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/favicon.ico">
+    <link rel="shortcut icon" href="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/favicon.ico">
+</head>
+<body>
+	<div class="header">
+	<%=XMLCommonUrls.Head3("", "gy")%>
+	</div>
+	<div class="main">
+		<div class="nav">
+			<span></span>
+			<div class="nav_Tmip">
+                <ul>
+					<%=sb.ToString() %>
+				</ul>
+            <div class=" gd">
+                <span class="hidden"></span>
+                <span class="show"></span>
+            </div>
+			</div>	 
+		</div>
+        <div class="banner">
+            <img src="http://a2.att.hudong.com/71/04/300224654811132504044925945_950.jpg" alt="Alternate Text" />
+        </div>
+		<div class="nav2">
+            <a href="/gy/">
+				<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/china-base-img/p1.jpg" alt="">
+				<span>产品中心</span>
+			</a>
+			<a href="/gs/">
+				<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/china-base-img/p2.jpg" alt="">
+				<span>企业黄页</span>
+			</a>
+			<a href="/sp/">
+				<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/china-base-img/p3.jpg" alt="">
+				<span>美图分享</span>
+			</a>
+			<a href="/sp/">
+				<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/china-base-img/p4.jpg" alt="">
+				<span>美图精选</span>
+			</a>
+			<a href="#">
+				<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/china-base-img/p5.jpg" alt="">
+				<span>分类信息</span>
+			</a>
+		</div>
+<%--		<div class="item">
+			<p class="i_p">特色市场</p>
+			<div class="i_dL">
+				<p class="i_p1">五金配件</p>
+				<p class="i_p2">五金工具精选</p>
+				<a href="#">
+					<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					<div class="clearfix"></div>
+				</a>
+			</div>
+			<div class="i_dR-F">
+				<div class="i_dR"> 
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="nav3">
+			<a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+            <a href="#">表面</a>
+		</div>
+		<div class="hot">
+			<p class="h_p">热门行业</p>
+			<div class="i_dR-F">
+				<div class="i_dR"> 
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>
+				<div class="i_dR">
+					<p class="i_p1">五金配件</p>
+					<p class="i_p2">五金工具精选</p>
+					<a href="#">
+						<img src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/img/ip1.jpg" alt="">
+					</a>
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+		</div>--%>
+        <div class="tab-all">
+		    <div class="tab_s">
+		        <p class="active">最新产品</p>
+		        <p>最新分享</p>
+                <div class="clearfix"></div>
+		    </div>
+		    <div class="tab_a">
+		    	<div class="boutique">
+		 
+               <%=sbbshot.ToString() %>
+				
+		    	</div>	    	
+		    	<div class="boutique">
+		    		  <%=sbbshot2.ToString() %>
+		    	</div>	
+		    </div>
+           </div>
+		<div class="friend_link">
+			<p>友情链接</p>
+			<div class="fk">
+				<a href="https://m.coovee.com">虎易网</a>
+			</div>
+		</div>
+		<div class="nav_bottom">
+			<span></span>
+			<ul>
+				<%=sb1.ToString() %>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+    <%=TxtHelper.ReadTxtByNameDefaultForFoot("Foot.txt","http://www.coovee.com/") %>
+	</div>
+
+    <script type="text/javascript" src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/js/index.js"></script>
+    <script type="text/javascript" src="<%=XMLCommonUrls.GetStaticFileByName("mdn_china") %>/js/gundong.js"></script>
+</body>
+</html>
